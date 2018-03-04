@@ -11,7 +11,16 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        // put your code here
+        $oblibeneVeci = array (
+            "homer" => "kobliha",
+            "marge" => "trouba",
+            "bart" => "prak",
+            "lisa" => "kniha",
+            "maggie" => "dudlik",
+            
+        );
+        
+        echo("Homer má rád: " . $oblibeneVeci["homer"]);
         ?>
     </body>
 </html>
